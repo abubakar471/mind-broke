@@ -1,0 +1,19 @@
+.hero-main-heading {
+    font-size: 3rem;
+}
+
+.hero-sub-heading {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+@media only screen and (max-width : 1400px) {
+    .hero-main-heading {
+        font-size: 2rem;
+    }
+
+    .hero-sub-heading {
+        font-size: 1.2rem;
+        line-height: 32px;
+    }
+}

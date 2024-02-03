@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f6f6f6;
+}
+
+
+
+
+/* .HowItWorks.HowItWorks {
+  background-color: #e9dcec;
+}
+{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.how-it-works .overlap-wrapper {
+  height: 968px;
+  width: 1920px;
+}
+
+.how-it-works .overlap {
+  height: 968px;
+  position: relative;
+}
+
+.how-it-works .vector-smart-object {
+  height: 492px;
+  left: 467px;
+  position: absolute;
+  top: 210px;
+  width: 1452px;
+}
+
+.how-it-works .BG {
+  height: 968px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.how-it-works .overlap-group-wrapper {
+  background-image: url(./BG.svg);
+  background-size: 100% 100%;
+  height: 968px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.how-it-works .overlap-group {
+  height: 654px;
+  left: 195px;
+  position: relative;
+  top: 173px;
+  width: 1724px;
+}
+
+.how-it-works .div {
+  height: 597px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 1721px;
+}
+
+.how-it-works .tailored-sleep-care {
+  height: 306px;
+  left: 0;
+  position: absolute;
+  top: 169px;
+  width: 377px;
+}
+
+.how-it-works .overlap-group-2 {
+  height: 306px;
+  position: relative;
+  width: 369px;
+}
+
+.how-it-works .text-wrapper {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 60px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.how-it-works .text-wrapper-2 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 60px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 72px;
+}
+
+.how-it-works .text-wrapper-3 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 60px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 144px;
+}
+
+.how-it-works .text-wrapper-4 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 60px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 216px;
+}
+
+.how-it-works .a-comprehensive {
+  height: 92px;
+  left: 0;
+  position: absolute;
+  top: 505px;
+  width: 319px;
+}
+
+.how-it-works .overlap-2 {
+  height: 92px;
+  position: relative;
+  width: 313px;
+}
+
+.how-it-works .text-wrapper-5 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.how-it-works .p {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+}
+
+.how-it-works .text-wrapper-6 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 60px;
+}
+
+.how-it-works .text-wrapper-7 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  left: 835px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 87px;
+}
+
+.how-it-works .establish-a-precise {
+  height: 70px;
+  left: 756px;
+  position: absolute;
+  top: 120px;
+  width: 452px;
+}
+
+.how-it-works .overlap-3 {
+  height: 70px;
+  position: relative;
+  width: 446px;
+}
+
+.how-it-works .text-wrapper-8 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.how-it-works .text-wrapper-9 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+}
+
+.how-it-works .text-wrapper-10 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 43px;
+}
+
+.how-it-works .text-wrapper-11 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  left: 1141px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 327px;
+}
+
+.how-it-works .experienced-sleep {
+  height: 70px;
+  left: 1055px;
+  position: absolute;
+  top: 359px;
+  width: 448px;
+}
+
+.how-it-works .overlap-4 {
+  height: 70px;
+  position: relative;
+  width: 442px;
+}
+
+.how-it-works .text-wrapper-12 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.how-it-works .text-wrapper-13 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+}
+
+.how-it-works .text-wrapper-14 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 73px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 43px;
+}
+
+.how-it-works .one-on-one-sessions {
+  height: 70px;
+  left: 567px;
+  position: absolute;
+  top: 360px;
+  width: 404px;
+}
+
+.how-it-works .overlap-5 {
+  height: 70px;
+  position: relative;
+  width: 398px;
+}
+
+.how-it-works .text-wrapper-15 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.how-it-works .weight-diet {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 43px;
+}
+
+.how-it-works .text-wrapper-16 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  left: 600px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 327px;
+}
+
+.how-it-works .circle {
+  height: 75px;
+  left: 949px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.how-it-works .img {
+  height: 75px;
+  left: 1240px;
+  position: absolute;
+  top: 232px;
+  width: 75px;
+}
+
+.how-it-works .circle-2 {
+  height: 75px;
+  left: 736px;
+  position: absolute;
+  top: 236px;
+  width: 75px;
+}
+
+.how-it-works .circle-3 {
+  height: 75px;
+  left: 1038px;
+  position: absolute;
+  top: 461px;
+  width: 75px;
+}
+
+.how-it-works .vector-smart-object-2 {
+  height: 492px;
+  left: 269px;
+  position: absolute;
+  top: 37px;
+  width: 1452px;
+}
+
+.how-it-works .icon {
+  background-image: url(./clip-path-group.png);
+  background-size: 100% 100%;
+  height: 35px;
+  left: 961px;
+  position: absolute;
+  top: 20px;
+  width: 51px;
+}
+
+.how-it-works .icon-2 {
+  height: 47px;
+  left: 1254px;
+  position: absolute;
+  top: 246px;
+  width: 42px;
+}
+
+.how-it-works .icon-3 {
+  height: 46px;
+  left: 751px;
+  position: absolute;
+  top: 249px;
+  width: 45px;
+}
+
+.how-it-works .icon-4 {
+  height: 49px;
+  left: 1050px;
+  position: absolute;
+  top: 477px;
+  width: 50px;
+}
+
+.how-it-works .text-wrapper-17 {
+  -webkit-text-stroke: 2px #555fab;
+  color: #525252;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 39.5px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+}
+
+.how-it-works .continued-monitoring {
+  height: 70px;
+  left: 848px;
+  position: absolute;
+  top: 584px;
+  width: 449px;
+}
+
+.how-it-works .overlap-6 {
+  height: 70px;
+  position: relative;
+  width: 443px;
+}
+
+.how-it-works .text-wrapper-18 {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.how-it-works .the-treatment-s {
+  color: #525252;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 92px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 43px;
+}
+
+.how-it-works .text-wrapper-19 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  left: 914px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 552px;
+}
+
+.how-it-works .div-wrapper {
+  height: 306px;
+  left: 198px;
+  position: absolute;
+  top: 342px;
+  width: 377px;
+}
+
+.how-it-works .text-wrapper-20 {
+  -webkit-text-stroke: 2px #555fab;
+  color: #525252;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 39.5px;
+  font-weight: 700;
+  left: 195px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 181px;
+}
+
+.how-it-works .a-comprehensive-2 {
+  height: 92px;
+  left: 198px;
+  position: absolute;
+  top: 678px;
+  width: 319px;
+}
+
+.how-it-works .text-wrapper-21 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  left: 1033px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 260px;
+}
+
+.how-it-works .establish-a-precise-2 {
+  height: 70px;
+  left: 954px;
+  position: absolute;
+  top: 294px;
+  width: 452px;
+}
+
+.how-it-works .text-wrapper-22 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  left: 1339px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 500px;
+}
+
+.how-it-works .experienced-sleep-2 {
+  height: 70px;
+  left: 1254px;
+  position: absolute;
+  top: 532px;
+  width: 448px;
+}
+
+.how-it-works .one-on-one-sessions-2 {
+  height: 70px;
+  left: 765px;
+  position: absolute;
+  top: 533px;
+  width: 404px;
+}
+
+.how-it-works .continued-monitoring-2 {
+  height: 70px;
+  left: 1043px;
+  position: absolute;
+  top: 757px;
+  width: 449px;
+}
+
+.how-it-works .text-wrapper-23 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  left: 798px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 500px;
+}
+
+.how-it-works .text-wrapper-24 {
+  color: #555fab;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  left: 1109px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 725px;
+}
+
+.how-it-works .circle-4 {
+  height: 75px;
+  left: 1147px;
+  position: absolute;
+  top: 173px;
+  width: 75px;
+}
+
+.how-it-works .circle-5 {
+  height: 75px;
+  left: 1438px;
+  position: absolute;
+  top: 405px;
+  width: 75px;
+}
+
+.how-it-works .circle-6 {
+  height: 75px;
+  left: 934px;
+  position: absolute;
+  top: 409px;
+  width: 75px;
+}
+
+.how-it-works .circle-7 {
+  height: 75px;
+  left: 1236px;
+  position: absolute;
+  top: 634px;
+  width: 75px;
+}
+
+.how-it-works .icon-5 {
+  background-image: url(./clip-path-group-2.png);
+  background-size: 100% 100%;
+  height: 35px;
+  left: 1159px;
+  position: absolute;
+  top: 193px;
+  width: 51px;
+}
+
+.how-it-works .icon-6 {
+  height: 47px;
+  left: 1452px;
+  position: absolute;
+  top: 419px;
+  width: 42px;
+}
+
+.how-it-works .icon-7 {
+  height: 46px;
+  left: 949px;
+  position: absolute;
+  top: 422px;
+  width: 45px;
+}
+
+.how-it-works .icon-8 {
+  height: 49px;
+  left: 1248px;
+  position: absolute;
+  top: 650px;
+  width: 50px;
+} */
