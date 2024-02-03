@@ -124,8 +124,10 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='h-[80vh]'>
-                    About carousel
+                <div className='w-full absolute bottom-0 1300px:h-[110vh] 1600px:h-[80vh]'>
+                    <div className='w-[80%] mx-auto'>
+                        <h2 className='text-center text-[#555FAB] 1300px:text-5xl font-semibold font-Poppins'>From sleepless nights to sleeping tight.</h2>
+                    </div>
                 </div>
             </div>
         </div>

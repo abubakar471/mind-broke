@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div style={{ background: `url("/assets/img/frame@2x.png")`, backgroundSize: "cover", backgroundBlendMode: "darken", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} className="w-full">
             <Navbar />
-            <div className="w-[80%] lg:w-[90%] xl:w-[90%] mx-auto min-h-[100vh] flex items-start 1300px:pt-24 1600px:pt-48">
+            <div className="w-[80%] lg:w-[90%] xl:w-[90%] mx-auto min-h-[100vh] flex items-center pt-10 1300px:items-start 1400px:items-start 1600px:items-start 1300px:pt-24 1400px:pt-48">
                 <div className="w-full">
                     <h2 className="text-white leading-snug tracking-wide font-Poppins font-semibold hero-main-heading">
                         <span className="text-[#A3DAD5]">Snoring</span> is a sign of <br />
