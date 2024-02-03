@@ -71,7 +71,7 @@ const About = () => {
 
                 {/* countup */}
                 <div className='w-full absolute top-[45.5%] -translate-y-1/2'>
-                    <div className='w-[80%] mx-auto bg-[#555FAB] p-8 rounded-3xl'>
+                    <div className='w-[80%] mx-auto bg-[#555FAB] p-8 py-12 rounded-3xl'>
                         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                             <div className='flex items-center justify-evenly'>
                                 <div className="flex flex-col items-center justify-center gap-4">
